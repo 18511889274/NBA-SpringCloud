@@ -1,0 +1,9 @@
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://localhost:8081/eureka/
+server:
+    port: 8803
+spring:
+    application:
+        name: nab-ribbon-consumer
